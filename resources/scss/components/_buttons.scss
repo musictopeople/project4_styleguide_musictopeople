@@ -1,0 +1,51 @@
+// buttons
+
+.btn {
+    margin-top: 15px;
+    width: 100%;
+    color: $type-white;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }
+  
+  .default {
+    background-color: $background-color-2;
+    transition: background-color .75s ease-in;
+    &:hover {
+      background-color: $background-color-1-light;
+    }
+  }
+  
+  .error {
+    background-color: $background-color-2;
+    transition: background-color .75s ease-in;
+    &:hover {
+      background-color: $background-color-2-light;
+    }
+  }
+  
+  .info {
+    background-color: $background-color-3;
+    transition: background-color .75s ease-in;
+    &:hover {
+      background-color: $background-color-3-light;
+    }
+  }
+  
+  .success {
+    background-color: $background-color-4;
+    transition: background-color .75s ease-in;
+    &:hover {
+      background-color: $background-color-4-light;
+    }
+  }
+  
+  .warning {
+    background-color: $background-color-5;
+    transition: background-color .75s ease-in;
+    &:hover {
+      background-color: $background-color-5-light;
+    }
+  }

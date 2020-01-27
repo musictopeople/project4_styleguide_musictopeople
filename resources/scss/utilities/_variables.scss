@@ -1,0 +1,27 @@
+// color variables
+
+// type colors
+
+$type-white: #fff;
+$type-default-color: #777;
+$headline-primary-color: #58e1c1;
+
+// background colors
+
+$background-color-1: #51ddfc;
+$background-color-2: #e4757a;
+$background-color-3: #927bc1;
+$background-color-4: #63cc82;
+$background-color-5: #fd7856;
+
+// background colors Lighten 15%
+
+$background-color-1-light: lighten($background-color-1, 15%);
+$background-color-2-light: lighten($background-color-2, 15%);
+$background-color-3-light: lighten($background-color-3, 15%);
+$background-color-4-light: lighten($background-color-4, 15%);
+$background-color-5-light: lighten($background-color-5, 15%);
+
+// media query breakpoint 
+
+$pc-screen: 768px;
